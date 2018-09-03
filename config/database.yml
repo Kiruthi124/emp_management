@@ -14,3 +14,12 @@ test:
   password: root
   host: 127.0.0.1
   port: 3306
+prodution:
+database: emp_prod
+adapter: postgresql
+encoding: unicode
+  username: postgres
+  password: postgres
+  host: local host
+  port: 5432
+pool: 100
